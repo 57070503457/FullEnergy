@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yingpoljitravitavaj.fullenergy.FullEnergyFood">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="189dp"
+        android:adjustViewBounds="false"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:cropToPadding="false"
+        app:layout_constraintLeft_toRightOf="@+id/imageButton8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_eat_calorie" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="56dp"
+        android:background="?android:attr/listChoiceBackgroundIndicator"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_eat_lunch"
+        android:layout_marginStart="126dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="322dp"
+        android:background="?android:attr/listChoiceBackgroundIndicator"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_eat_snack"
+        android:layout_marginStart="126dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="259dp"
+        android:layout_marginTop="189dp"
+        android:background="?android:attr/listChoiceBackgroundIndicator"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_eat_dinner"
+        android:layout_marginStart="259dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="189dp"
+        android:background="?android:attr/listChoiceBackgroundIndicator"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_eat_breakfast"
+        tools:layout_editor_absoluteX="-6dp" />
+</android.support.constraint.ConstraintLayout>
